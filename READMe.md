@@ -26,3 +26,12 @@
 
   > - Obs.: Os métodos GET e POST recebem os params de forma opcional de acordo com a rota que queremos acessar.
   > - Os métodos PUT, PATCH e DELETE, precisam receber um param na rota de acordo com o que queremos atualizar ou deletar. Se vamos excluir um user ex.: app.delet("/users/:id", (req, res) => {}).
+
+### Utilizando o Insomnia
+
+> Vamos utilizar a ferramenta Insomnia para testar nossas rotas.
+
+- Instalamos o Insomnia do site oficial
+- Criamos um arquivo
+- Configuramos a baseURL nas configurações.
+- Definimos todas as requisições para nossa aplicação.
