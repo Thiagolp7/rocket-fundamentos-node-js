@@ -35,3 +35,11 @@
 - Criamos um arquivo
 - Configuramos a baseURL nas configurações.
 - Definimos todas as requisições para nossa aplicação.
+
+### Tipos de parâmetros
+
+- Routes Params - são parametros que enviamos na url da rota. Serve para identificar um recurso editar/deletar/buscar. Conseguimos pegar através do "req.params".
+- Query Params - são parametros que vão na nossa url através de "?key=value&key=value". Utilizado para paginação/filtros. Conseguimos pegar com "req.query". São opcionais, sem eles a rota ainda funciona.
+- Body Params - São objetos que vamos passar no corpo da req para inserção/alteração de algum recurso. Conseguimos pegar através de "req.body". Na maiorida das vezes vamos utilizar JSON.
+
+> Precisamos configurar no express um middleware, para nossa aplicação entender que estamos recebendo um objeto JSON no body. Adicionamos "app.use(express.json())"
