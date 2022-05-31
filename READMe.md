@@ -23,5 +23,5 @@
 - PUT - Alterar uma informação no servidor.
 - PATCH - Alterar uma info específica.
 - DELETE - Deletar uma info do servidor.
-  > Obs.: Os métodos GET e POST recebem os params de forma opcional de acordo com a rota que queremos acessar.
-  > Os métodos PUT, PATCH e DELETE, precisam receber um param na rota de acordo com o que queremos atualizar ou deletar. Se vamos excluir um user ex.: app.delet("/users/:id", (req, res) => {}).
+  > - Obs.: Os métodos GET e POST recebem os params de forma opcional de acordo com a rota que queremos acessar.
+  > - Os métodos PUT, PATCH e DELETE, precisam receber um param na rota de acordo com o que queremos atualizar ou deletar. Se vamos excluir um user ex.: app.delet("/users/:id", (req, res) => {}).
